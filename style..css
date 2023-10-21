@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.BackgroundImage {
+    background-image: url(IITa.jpg);
+
+    height: 100vh;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.main {
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    outline-offset: 2px;
+    padding: 50px 60px 70px;
+    text-align: center;
+}
+
+
+
+.SignUp {
+    display: inline;
+    margin: 0 auto;
+    border-radius: 20px;
+    outline-offset: 2px;
+    width: 100%;
+    top: 5%;
+    right: 5%;
+    position: absolute;
+    text-align: right;
+}
+
+.button:hover {
+    transform: scale(1.2);
+}
+
+.button {
+    transition: all 0.3s;
+    background-color: #e3d4d4;
+    font-size: 25px;
+}
+
+.form {
+
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    outline-offset: 2px;
+    padding: 50px 60px 70px;
+    text-align: center;
+}
+
+
+.back{
+    display: inline;
+    margin: 0 auto;
+    border-radius: 20px;
+    outline-offset: 2px;
+    width: 100%;
+    top: 95%;
+    right: 95%;
+    position: absolute;
+    text-align: right;
+}
+
+.ScanYourselfOut{
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    right: 45%;
+
+}
+
+.ScanYourselfIn{
+    max-width: 150px;
+    position: absolute;
+    top: 50%;
+    right: 15%;
+
+}
